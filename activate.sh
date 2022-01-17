@@ -15,6 +15,8 @@ elif [ "$IMG" = "tutorial" ]; then
     echo "Activate the enviroment for CS6350 PyTorch Tutorial..."
 elif [ "$IMG" = "event" ]; then
     echo "Activate the enviroment for ODE Tensor Event..."
+elif [ "$IMG" = "cs224" ]; then
+    echo "Activate the enviroment for ODE Tensor Event..."
 else
     echo "ERROR: No name Docker image has found !"
     exit 1
